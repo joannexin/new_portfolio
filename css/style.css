@@ -1,0 +1,21 @@
+.navbar {
+  background-color: rgba(21,31,33,0.5);
+  border-bottom: 1px solid #dedede;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar .nav .nav-item .nav-link {
+  color: #d1d1d1;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.home-button {
+  color: #d1d1d1;
+}
+
+.home-button:hover {
+  color: #fff;
+}
