@@ -56,25 +56,24 @@
 
     <section id="header">
       <div class="container"></div>
-        <!-- <img src="img/background3.jpg" alt="" class="bg"/>
-        <div class="bg-overlay"></div> -->
-
-        <!-- <div class="row">
-          <div class="col-sm-6">
-            <img src="img/selfie.png" class="img-responsive" />
-            <div>Hi, I am Joanne</div>
+        <div class="row">
+          <div class="col-md-12">
+            <video playsinline autoplay muted loop>
+              <source src="video/city.webm" type="video/webm">
+              <source src="video/city.mp4" type="video/mp4">
+            </video>
           </div>
-
-          <div class="col-sm-6">
-            <div>Hi, I am Joannesflaefkefkjhwafawehfieuwhfhfawefhiwaeh</div>
-          </div>
-        </div> -->
+        </div>
 
         <div class="row">
-          <div class="col-sm-12">
-            <p class="description-1">Hello, my name is Joanne Xin</p>
-            <p class="description-2">and I am a web developer in San Francisco.</p>
-            <a href="#about" <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></a>
+          <div class="col-md-12">
+            <!-- <img src="img/cat.jpg" /> -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12" id="chevron">
+            <a href="#about" <i class="fa fa-chevron-down fa-5x" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -109,33 +108,78 @@
 
     <!-- END ABOUT -->
 
-    <!-- CONTACT -->
-    <div id="contact">
 
+    <!-- PROJECTS -->
+
+    <div class="projects" id="projects">
       <div class="container">
+
         <div class="row">
-
-          <div class="col-md-6">
-            <p class="description">Connect with me:</p>
-            <hr align="left" width="50%"></hr>
-            <p class="description">(408)806-9692 | jeffiefeifei@gmail.com</p>
-          </div>
-
-          <div class="col-md-6" id="icons">
-            <ul class="list-inline">
-              <li class="list-inline-item bounce"><a href="https://github.com/joannexin" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li class="list-inline-item bounce"><a href="https://www.linkedin.com/in/joanne-xin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li class="list-inline-item bounce"><a href="https://www.facebook.com/jeffie.xin" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item bounce"><a href="https://twitter.com/joannexin1" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item bounce"><a href="mailto:jeffiefeifei@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-            </ul>
+          <div class="col-md-12 img-responsive">
+            <h2>Recent projects</h2>
+            <hr align="left" width="30%"></hr>
+            <p class="lead">I am a full stack software engineer with a strong background in JavaScript.</p>
           </div>
         </div>
-      </div>
 
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="card img-responsive" style="width: 20rem;">
+              <div class="projects-img">
+                <a href="http://www.soundbear.net/" target="_blank"><img class="card-img-top" src="img/landing1.gif" alt="Card image cap"><div class="img-overlay"></div></a>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">SoundBear</h4>
+                <p class="card-text">Voice activated music player</p>
+                <a href="#" class="btn btn-primary">code source</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3">
+            <div class="card img-responsive" style="width: 20rem;">
+              <div class="projects-img">
+                <a href="http://107.170.239.150/" target="_blank"><img class="card-img-top" src="img/rumble.png" alt="Card image cap"><div class="img-overlay"></div></a>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">Rumble</h4>
+                <p class="card-text">Turn based strategy game</p>
+                <a href="#" class="btn btn-primary">code source</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3">
+            <div class="card img-responsive" style="width: 20rem;">
+              <div class="projects-img">
+                <a href="https://fierce-badlands-64131.herokuapp.com/#/" target="_blank"><img class="card-img-top" src="img/bakpak.png" alt="Card image cap"><div class="img-overlay"></div></a>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">Bakpak</h4>
+                <p class="card-text">Versatile travel, event managing app</p>
+                <a href="#" class="btn btn-primary">code source</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3">
+            <div class="card img-responsive" style="width: 20rem;">
+              <div class="projects-img">
+                <a href="http://138.197.196.135/#/" target="_blank"><img class="card-img-top" src="img/myksr1.png" alt="Card image cap"><div class="img-overlay"></div></a>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">Myksr</h4>
+                <p class="card-text">Social networking for students</p>
+                <a href="#" class="btn btn-primary">code source</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
 
-    <!-- END CONTACT -->
+    <!-- END PROJECTS -->
 
     <!-- SKILLS -->
 
@@ -216,77 +260,34 @@
 
     <!-- END SKILLS -->
 
-    <!-- PROJECTS -->
 
-    <div class="projects" id="projects">
+    <!-- CONTACT -->
+    <div id="contact">
+
       <div class="container">
-
         <div class="row">
-          <div class="col-md-12 img-responsive">
-            <h2>Recent projects</h2>
-            <hr align="left" width="30%"></hr>
-            <p class="lead">I am a full stack software engineer with a strong background in JavaScript.</p>
+
+          <div class="col-md-6">
+            <p class="description">Connect with me:</p>
+            <hr align="left" width="50%"></hr>
+            <p class="description">(408)806-9692 | jeffiefeifei@gmail.com</p>
+          </div>
+
+          <div class="col-md-6" id="icons">
+            <ul class="list-inline">
+              <li class="list-inline-item bounce"><a href="https://github.com/joannexin" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li class="list-inline-item bounce"><a href="https://www.linkedin.com/in/joanne-xin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li class="list-inline-item bounce"><a href="https://www.facebook.com/jeffie.xin" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item bounce"><a href="https://twitter.com/joannexin1" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item bounce"><a href="mailto:jeffiefeifei@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            </ul>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="http://www.soundbear.net/" target="_blank"><img class="card-img-top" src="img/landing1.gif" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h4 class="card-title">SoundBear</h4>
-                <p class="card-text">Voice activated music player</p>
-                <a href="#" class="btn btn-primary">code source</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-3">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="http://107.170.239.150/" target="_blank"><img class="card-img-top" src="img/rumble.png" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h4 class="card-title">Rumble</h4>
-                <p class="card-text">Turn based strategy game</p>
-                <a href="#" class="btn btn-primary">code source</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-3">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="https://fierce-badlands-64131.herokuapp.com/#/" target="_blank"><img class="card-img-top" src="img/bakpak.png" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h4 class="card-title">Bakpak</h4>
-                <p class="card-text">Versatile travel, event managing app</p>
-                <a href="#" class="btn btn-primary">code source</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-3">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="http://138.197.196.135/#/" target="_blank"><img class="card-img-top" src="img/myksr1.png" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h4 class="card-title">Myksr</h4>
-                <p class="card-text">Social networking for students</p>
-                <a href="#" class="btn btn-primary">code source</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
+
     </div>
 
-    <!-- END PROJECTS -->
+    <!-- END CONTACT -->
 
   </body>
 </html>
