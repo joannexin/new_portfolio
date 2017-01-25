@@ -1,3 +1,26 @@
+html, body {
+  height: 100%;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+@media(max-width:768px) {
+  #header {
+    text-align: center;
+  }
+
+  #aboutme {
+    text-align: center;
+  }
+
+  #about hr, #contact hr {
+    margin: 8% auto;
+  }
+  #contact {
+    text-align: center;
+  }
+
+}
+
 .navbar {
   background-color: rgba(21,31,33,0.5);
   border-bottom: 1px solid #dedede;
@@ -18,4 +41,83 @@
 
 .home-button:hover {
   color: #fff;
+}
+
+/* HEADER */
+/*.bg-overlay {
+	background: url('../img/overlay.png');
+  opacity: 0.8;
+	z-index: -1;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.bg {
+	position: fixed;
+	top: 0%;
+  right: 0%;
+  width: auto;
+  height: 100%;
+  margin: auto auto;
+  min-width: 100%;
+  min-height: 600px;
+  z-index: -2;
+}*/
+
+
+#header {
+  background: url('../img/background3.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/*About*/
+#about {
+  padding: 4.25rem 0;
+}
+
+
+/*Contact */
+
+#contact {
+  padding: 4.25rem 0;
+  background-color: #d1d1d1;
+}
+
+#contact .fa {
+  font-size: 2em;
+  color: #808080;
+  border: 2px solid #808080;
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  text-align: center;
+  padding: 25% 0;
+  margin-top: 10px;
+  transition:all 0.4s ease-in-out;
+}
+
+#contact .fa:hover {
+  color: #fff;
+  background: #808080;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 24px;
+  color: white;
+  text-shadow:  0 0 1px #1D2024, 0 0 2px #2C284A,  0 0 3px #2C284A, 0 0 5px #2C284A, 0 0 3px #2C284A, 0 0 8px #2C284A, 0 0 10px #2C284A, 0 0 15px #2C284A;
+}
+
+.img-fluid {
+  text-align: center;
+  border-radius: 50%
+}
+
+#selfie, #icons {
+  text-align: center;
 }
