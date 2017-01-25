@@ -113,11 +113,27 @@ html, body {
   text-shadow:  0 0 1px #1D2024, 0 0 2px #2C284A,  0 0 3px #2C284A, 0 0 5px #2C284A, 0 0 3px #2C284A, 0 0 8px #2C284A, 0 0 10px #2C284A, 0 0 15px #2C284A;
 }
 
-.img-fluid {
+.selfie {
   text-align: center;
   border-radius: 50%
 }
 
 #selfie, #icons {
   text-align: center;
+}
+
+/*Skills*/
+#skills {
+  padding: 4.25rem 0;
+}
+
+
+/*Projects*/
+#projects {
+  padding: 4.25rem 0;
+  background-color: #d1d1d1;
+}
+.card-img-top {
+  height: 150px;
+  width: 100%;
 }
