@@ -138,7 +138,7 @@ video {
 /*Projects*/
 #projects {
   padding: 4.25rem 0;
-  background-color: #ADD8E6;
+  background-color: #E0FFFF;
 }
 
 .card-img-top {
@@ -357,81 +357,118 @@ video {
 /*SKILLS*/
 #skills {
   padding: 4.25rem 0;
-  background-color: #ADD8E6;
+  background-color: #E0FFFF;
 }
 
-.skillbar {
+#skill-box {
+  text-align: center;
+  padding: 50px;
+}
+
+#skills .fa {
+  color: #00CED1;
+}
+
+#skill1 {
+	list-style: none;
+	width: 500px;
+	margin: 50px auto 0;
 	position: relative;
-	display: block;
-	margin-bottom: 15px;
-	width: 100%;
-	background: #eee;
-	height: 35px;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-webkit-transition: 0.4s linear;
-	-moz-transition: 0.4s linear;
-	-ms-transition: 0.4s linear;
-	-o-transition: 0.4s linear;
-	transition: 0.4s linear;
-	-webkit-transition-property: width, background-color;
-	-moz-transition-property: width, background-color;
-	-ms-transition-property: width, background-color;
-	-o-transition-property: width, background-color;
-	transition-property: width, background-color;
+	line-height: 2em;
+	padding: 30px 0;
 }
 
-.skillbar-title {
-	position: absolute;
-	top: 0;
-	left: 0;
-  width: 110px;
-	font-weight: bold;
-	font-size: 13px;
-	color: #ffffff;
-	background: #6adcfa;
-	-webkit-border-top-left-radius: 3px;
-	-webkit-border-bottom-left-radius: 4px;
-	-moz-border-radius-topleft: 3px;
-	-moz-border-radius-bottomleft: 3px;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
+#skill1 li {
+	margin-bottom:50px;
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
+	height:20px;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
 }
 
-.skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
+#skill1 li h3 {
+	position:relative;
+	top:-25px;
 }
 
-.skillbar-bar {
-	height: 35px;
-	width: 0px;
-	background: #6adcfa;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
+.bar {
+	height:18px;
+	margin:1px 2px;
+	position:absolute;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 }
 
-.skill-bar-percent {
-	position: absolute;
-	right: 10px;
-	top: 0;
-	font-size: 11px;
-	height: 35px;
-	line-height: 35px;
-	color: #ffffff;
-	color: rgba(0, 0, 0, 0.4);
+.super-strong {
+	width:100%;
+	-moz-animation:super-strong 2s ease-out;
+	-webkit-animation:super-strong 2s ease-out;
+	background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
 }
+
+.strong {
+	width:90%;
+	-moz-animation:strong 2s ease-out;
+	-webkit-animation:strong 2s ease-out;
+	background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.good {
+	width:65%;
+	-moz-animation:good 2s ease-out;
+	-webkit-animation:good 2s ease-out;
+	background-color: #a1ce5b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.acceptable {
+	width:80%;
+	-moz-animation:acceptable 2s ease-out;
+	-webkit-animation:acceptable 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+
+@-moz-keyframes super-strong {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes strong        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes good      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes acceptable   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes super-strong       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes strong        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes good      { 0%  { width:0px;} 100%{ width:65%;}  }
 
 /*SHARE*/
 #share {
@@ -447,7 +484,7 @@ video {
 /*Contact */
 #contact {
   padding: 4.25rem 0;
-  background-color: #ADD8E6;
+  background-color: #E0FFFF;
 }
 
 #contact .fa {
