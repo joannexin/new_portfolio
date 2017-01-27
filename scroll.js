@@ -1,5 +1,6 @@
 $(window).scroll(function() {
-	$('#selfie').each(function(){
+
+  $('.selfie').each(function(){
 	var imagePos = $(this).offset().top;
 
 	var topOfWindow = $(window).scrollTop();
@@ -21,21 +22,39 @@ $(window).scroll(function() {
 	var imagePos = $(this).offset().top;
 
 	var topOfWindow = $(window).scrollTop();
-		if (imagePos < topOfWindow+400) {
+		if (imagePos < topOfWindow+650) {
 			$(this).addClass("tossing");
 		}
 	});
 
-  $('.card-img-top').each(function(){
+  $('.timeline-panel-left').each(function(){
 	var imagePos = $(this).offset().top;
 
 	var topOfWindow = $(window).scrollTop();
-		if (imagePos < topOfWindow+400) {
-			$(this).addClass("expandOpen");
+		if (imagePos < topOfWindow+500) {
+			$(this).addClass("slideLeft");
+		}
+	});
+
+  $('.timeline-panel-right').each(function(){
+	var imagePos = $(this).offset().top;
+
+	var topOfWindow = $(window).scrollTop();
+		if (imagePos < topOfWindow+500) {
+			$(this).addClass("slideRight");
 		}
 	});
 });
 
 $('#animatedElement').click(function() {
 	$(this).addClass("slideUp");
+});
+
+
+$(document).ready(function(){
+	$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
 });
