@@ -16,6 +16,24 @@ $(window).scroll(function() {
 			$(this).addClass("stretchLeft");
 		}
 	});
+
+  $('.btn-custom').each(function(){
+	var imagePos = $(this).offset().top;
+
+	var topOfWindow = $(window).scrollTop();
+		if (imagePos < topOfWindow+400) {
+			$(this).addClass("tossing");
+		}
+	});
+
+  $('.card-img-top').each(function(){
+	var imagePos = $(this).offset().top;
+
+	var topOfWindow = $(window).scrollTop();
+		if (imagePos < topOfWindow+400) {
+			$(this).addClass("expandOpen");
+		}
+	});
 });
 
 $('#animatedElement').click(function() {
