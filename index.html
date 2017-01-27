@@ -12,6 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/5d56eaa681.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="app.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -23,32 +24,31 @@
       </div>
 
       <div class="collapse navbar-collapse" id="navigation">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav pull-right">
           <li class="nav-item">
-            <a class="nav-link" href="#about">ABOUT ME</a>
+            <a class="nav-link hvr-underline" href="#about">ABOUT ME</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="nav-link hvr-underline" href="#projects">PROJECTS</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#skills">SKILLS</a>
+            <a class="nav-link hvr-underline" href="#skills">SKILLS</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#experience">EXPERIENCE</a>
+            <a class="nav-link hvr-underline" href="#experience">EXPERIENCE</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#education">EDUCATION</a>
+            <a class="nav-link hvr-underline" href="#contact">CONTACT</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href=".projects">PROJECTS <b class="caret"></b></a>
-            <ul class = "dropdown-menu">
-               <li><a href="http://www.soundbear.net/">soundBear</a></li>
-               <li><a href="http://107.170.239.150/">Rumble</a></li>
-               <li><a href="https://fierce-badlands-64131.herokuapp.com/#/">Bakpak</a></li>
-               <li><a href="http://138.197.196.135/#/">Myksr</a></li>
-            </ul>
+            <a class="nav-link hvr-underline" href="file/resume.pdf" target="_blank">RESUME</a>
           </li>
-        </ul>
+
       </div>
     </nav>
 
@@ -65,15 +65,15 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-12">
-            <!-- <img src="img/cat.jpg" /> -->
-          </div>
+        <div class="col-xs-12" id="discription">
+          <h1>Hi, I'm Joanne</h1>
+          <h2>A Web Developer in San Francisco.</h2>
         </div>
 
         <div class="row">
-          <div class="col-md-12" id="chevron">
-            <a href="#about" <i class="fa fa-chevron-down fa-5x" aria-hidden="true"></i></a>
+          <div class="col-xs-12" id="chevron">
+            <h3>More about me</h3>
+            <a href="#about" <i class="fa fa-chevron-down fa-5x bounce" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -89,16 +89,17 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-6" id="aboutme">
-            <h2>My Story...</h2>
-            <hr align="left" width="50%"></hr>
-            <p class="lead">I am a full stack software engineer with a strong background in JavaScript.</p>
-            <p>My experience includes working with technologies such as Angular, React on the front end, and Node, Express, and MySQL on the back end.</p>
-          </div>
-
           <div class="col-md-6" id="selfie">
             <img src="img/selfie.png" class="selfie" />
             <br></br>
+          </div>
+
+          <div class="col-md-6" id="aboutme">
+            <h2>My Story</h2>
+            <hr align="left" width="50%"></hr>
+            <h3>I am a full stack software engineer with a strong background in JavaScript. My experience includes working with technologies such as Angular, React on the front end, and Node, Express, and MySQL on the back end.</h3>
+            <br>
+            <p class="lead"><strong>Skill set:</strong> Javascript, Ruby, Angular.js, React/Redux, Node, Express.js, MySQL, jQuery, HTML/CSS, Bootstrap, Git, Python, Backbone.js, MongoDB/Mongoose, D3, ES6, Grunt, Heroku, DigitalOcean, webpack</p>
           </div>
 
         </div>
@@ -111,14 +112,14 @@
 
     <!-- PROJECTS -->
 
-    <div class="projects" id="projects">
+    <div id="projects">
       <div class="container">
 
         <div class="row">
           <div class="col-md-12 img-responsive">
             <h2>Recent projects</h2>
             <hr align="left" width="30%"></hr>
-            <p class="lead">I am a full stack software engineer with a strong background in JavaScript.</p>
+            <p class="lead"></p>
           </div>
         </div>
 
@@ -131,7 +132,7 @@
               <div class="card-block">
                 <h4 class="card-title">SoundBear</h4>
                 <p class="card-text">Voice activated music player</p>
-                <a href="#" class="btn btn-primary">code source</a>
+                <a href="https://github.com/backbonebear/soundbear" target="_blank" class="btn btn-primary">code source</a>
               </div>
             </div>
           </div>
@@ -144,7 +145,7 @@
               <div class="card-block">
                 <h4 class="card-title">Rumble</h4>
                 <p class="card-text">Turn based strategy game</p>
-                <a href="#" class="btn btn-primary">code source</a>
+                <a href="https://github.com/joannexin/rumble" target="_blank" class="btn btn-primary">code source</a>
               </div>
             </div>
           </div>
@@ -157,7 +158,7 @@
               <div class="card-block">
                 <h4 class="card-title">Bakpak</h4>
                 <p class="card-text">Versatile travel, event managing app</p>
-                <a href="#" class="btn btn-primary">code source</a>
+                <a href="https://github.com/joannexin/BakPak" target="_blank" class="btn btn-primary">code source</a>
               </div>
             </div>
           </div>
@@ -170,7 +171,7 @@
               <div class="card-block">
                 <h4 class="card-title">Myksr</h4>
                 <p class="card-text">Social networking for students</p>
-                <a href="#" class="btn btn-primary">code source</a>
+                <a href="https://github.com/joannexin/MyKSr" target="_blank" class="btn btn-primary">code source</a>
               </div>
             </div>
           </div>
@@ -217,7 +218,7 @@
                 </div>
 
                 <div class="item">
-                  <img src="img/myksr1.png" alt="Chania" width="460" height="345">
+                  <img src="img/nodejs.png" alt="Chania" width="460" height="345">
                   <div class="carousel-caption">
                     <h3>Chania</h3>
                     <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
@@ -268,7 +269,7 @@
         <div class="row">
 
           <div class="col-md-6">
-            <p class="description">Connect with me:</p>
+            <p class="description">Connect Me:</p>
             <hr align="left" width="50%"></hr>
             <p class="description">(408)806-9692 | jeffiefeifei@gmail.com</p>
           </div>

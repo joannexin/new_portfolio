@@ -19,11 +19,13 @@ html, body {
     text-align: center;
   }
 
+
 }
 
 .navbar {
-  background-color: rgba(21,31,33,0.5);
+  background-color: rgba(21,31,33,0.8);
   border-bottom: 1px solid #dedede;
+  padding-right: 50px;
   font-family: 'Alegreya Sans', sans-serif;
 }
 
@@ -62,16 +64,65 @@ video {
   transition: 1s opacity;
 }
 
+#discription {
+  position: absolute;
+  text-align: center;
+  margin-top: -650px;
+  color: #fff;
+}
+
 #chevron {
   position: absolute;
   text-align: center;
-  margin-top: -200px;
+  margin-top: -250px;
+  color: #fff;
+}
+
+.fa-chevron-down {
+  color: #fff;
+}
+
+.fa-chevron-down:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Underline From Left */
+.hvr-underline {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #eee;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline:hover:before, .hvr-underline:focus:before, .hvr-underline:active:before {
+  right: 0;
 }
 
 /*About*/
 #about {
   padding: 4.25rem 0;
-  /*margin-top: 800px;*/
 }
 
 /*Projects*/
