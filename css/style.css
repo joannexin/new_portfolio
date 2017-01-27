@@ -198,7 +198,7 @@ video {
   background: #808080;
 }
 
-@keyframes bounce {
+@keyframes bounces {
 	0%, 20%, 60%, 100% {
 		-webkit-transform: translateY(0);
 		transform: translateY(0);
@@ -214,12 +214,12 @@ video {
 		transform: translateY(-10px);
 	}
 }
-.bounce:hover {
-  animation: bounce 1s;
+.bounces:hover {
+  animation: bounces 1s;
 }
 
 
-.description {
+.descriptions {
   font-weight: 300;
   font-size: 24px;
   color: white;
