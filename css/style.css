@@ -196,6 +196,10 @@ video {
   width: 80%;
 }
 
+.btn-custom-update {
+  width: 50%;
+}
+
 .btn-custom:hover {
   font-weight: bold;
   color: #00CED1;
@@ -583,7 +587,7 @@ video {
   background-color: #E0FFFF;
 }
 
-#contact .fa {
+#contact .fa-icons {
   font-size: 2em;
   color: #fff;
   background-color: #00CED1;
@@ -597,7 +601,7 @@ video {
   transition: all 0.4s ease-in-out;
 }
 
-#contact .fa:hover {
+#contact .fa-icons:hover {
   color: #00CED1;
   background: #fff;
   border: 2px solid #00CED1;
@@ -626,18 +630,19 @@ video {
 
 .descriptions {
   font-weight: 300;
-  color: white;
+  color: #fff;
   text-shadow: 0 0 1px #00CED1, 0 0 2px #00CED1, 0 0 3px #00CED1, 0 0 5px #00CED1, 0 0 3px #00CED1, 0 0 8px #00CED1, 0 0 10px #00CED1, 0 0 15px #00CED1;
 }
 
-.moreaboutme-update {
+.descriptions-update {
   text-shadow: 2px 2px 4px #00CED1;
 }
 
-.contact-update {
-  color: black;
+.descriptions-update-color {
+  color: grey;
+  font-style: italic;
 }
 
-#selfie, #icons, #technical-skill, #projects-list, #experience-timeline, #share-info {
+#selfie, #icons, #technical-skill, #projects-list, #experience-timeline, #share-info, #contact-info {
   text-align: center;
 }
