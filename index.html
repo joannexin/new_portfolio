@@ -1,455 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/5d56eaa681.js"></script>
-    <link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon2.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/animation.css">
-    <script src="scroll.js"></script>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/5d56eaa681.js"></script>
+  <link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon2.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <script src="scroll.js"></script>
+</head>
 
-      <button class="navbar-toggle hidden-md-up home-button" type="button" data-toggle="collapse" data-target="#navigation">&#9776;</button>
-
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><i class="fa fa-home home-button fa-lg" aria-hidden="true"></i></a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="navigation">
-        <ul class="nav navbar-nav pull-right">
-          <li class="nav-item">
-            <a class="nav-link hvr-underline" href="#about">ABOUT ME</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link hvr-underline" href="#projects">PROJECTS</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link hvr-underline" href="#skills">SKILLS</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link hvr-underline" href="#experience">EXPERIENCE</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link hvr-underline" href="#contact">CONTACT</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link hvr-underline" href="file/resume.pdf" target="_blank">RESUME</a>
-          </li>
-
-      </div>
-    </nav>
-
-    <!-- HEADER -->
-
-    <section id="header">
-      <div class="container"></div>
-        <div class="row video-container">
-          <div class="col-md-12" id="video">
-            <video playsinline autoplay muted loop>
-              <source src="video/city.webm" type="video/webm">
-              <source src="video/city.mp4" type="video/mp4">
-            </video>
-          </div>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <button class="navbar-toggle hidden-md-up home-button" type="button" data-toggle="collapse" data-target="#navigation">&#9776;</button>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <i class="fa fa-home home-button fa-lg" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navigation">
+      <ul class="nav navbar-nav pull-right">
+        <li class="nav-item">
+          <a class="nav-link hvr-underline" href="#about">ABOUT ME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline" href="#projects">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline" href="#skills">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline" href="#experience">EXPERIENCE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline" href="#contact">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline" href="file/resume.pdf" target="_blank">RESUME</a>
+        </li>
+    </div>
+  </nav>
+  <!-- HEADER -->
+  <section id="header">
+    <div class="container" style="width:100%">
+      <div class="row video-container">
+        <div class="col-md-12" id="video">
+          <video playsinline autoplay muted loop>
+            <source src="video/city.webm" type="video/webm">
+            <source src="video/city.mp4" type="video/mp4">
+          </video>
         </div>
-
+      </div>
+      <div class="row">
         <div class="col-xs-12" id="discription">
           <h1 class="descriptions">Hi, I'm Joanne</h1>
           <h2 class="descriptions">A Web Developer in San Francisco.</h2>
         </div>
-
-        <div class="row">
-          <div class="col-xs-12" id="chevron">
-            <h3 class="descriptions moreaboutme-update">More about me</h3>
-            <a href="#about" <i class="fa fa-chevron-down fa-5x floating bounces" aria-hidden="true"></i></a>
-          </div>
-        </div>
-
       </div>
-    </section>
-
-    <!-- END HEADER -->
-
-    <!-- ABOUT -->
-
-    <section id="about">
-
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-6" id="selfie">
-            <img src="img/selfie.png" class="selfie" />
-            <br></br>
-          </div>
-
-          <div class="col-md-6" id="aboutme">
-            <h2>My Story</h2>
-            <hr align="left" width="50%"></hr>
-            <h3>I am a full stack software engineer with a strong background in JavaScript. My experience includes working with technologies such as Angular, React on the front end, and Node, Express, and MySQL on the back end.</h3>
-            <br>
-            <p class="lead">During spare time, I love traveling and creative cooking! Especially finding ways to mix together otherwise incompatible ingredients to create delicious concoctions, like coca-cola hot wings or garlic smoked eggplant. I like to use my imagination to push the boundaries of what is considered “normal” food.</p>
-          </div>
-
+      <div class="row">
+        <div class="col-xs-12" id="chevron">
+          <h3 class="descriptions moreaboutme-update">More about me</h3>
+          <a href="#about" <i class="fa fa-chevron-down fa-5x floating bounces" aria-hidden="true">
+            </i>
+          </a>
         </div>
-      </div>
-
-    </section>
-
-    <!-- END ABOUT -->
-
-
-    <!-- PROJECTS -->
-
-    <div id="projects">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-12" id="projects-list">
-            <h2>Recent projects</h2>
-            <hr width="30%"></hr>
-            <p class="lead"></p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="http://www.soundbear.net/" target="_blank"><img class="card-img-top" src="img/landing1.gif" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h2 class="card-title">SoundBear</h2>
-                <h4 class="card-text">Voice activated music player</h4>
-                <a href="https://github.com/backbonebear/soundbear" target="_blank" class="btn btn-primary btn-custom">source code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="http://107.170.239.150/" target="_blank"><img class="card-img-top" src="img/rumble.png" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h2 class="card-title">Rumble</h2>
-                <h4 class="card-text">Turn based strategy game</h4>
-                <a href="https://github.com/joannexin/rumble" target="_blank" class="btn btn-primary btn-custom">source code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="https://fierce-badlands-64131.herokuapp.com/#/" target="_blank"><img class="card-img-top" src="img/bakpak.png" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h2 class="card-title">Bakpak</h2>
-                <h4 class="card-text">Versatile travel, event managing app</h4>
-                <a href="https://github.com/joannexin/BakPak" target="_blank" class="btn btn-primary btn-custom">source code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="card img-responsive" style="width: 20rem;">
-              <div class="projects-img">
-                <a href="http://138.197.196.135/#/" target="_blank"><img class="card-img-top" src="img/myksr1.png" alt="Card image cap"><div class="img-overlay"></div></a>
-              </div>
-              <div class="card-block">
-                <h2 class="card-title">Myksr</h2>
-                <h4 class="card-text">Social networking for students</h4>
-                <a href="https://github.com/joannexin/MyKSr" target="_blank" class="btn btn-primary btn-custom">source code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
-
-    <!-- END PROJECTS -->
-
-    <!-- EXPERIENCE -->
-
-    <div id="experience">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-12" id="experience-timeline">
-            <h2>Experience</h2>
-            <hr width="30%">
-          </div>
-        </div>
-
-        <ul class="timeline">
-
-          <li>
-            <div class="timeline-badge"><i class="fa fa-code" aria-hidden="true"></i></div>
-            <div class="timeline-panel timeline-panel-left">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Hack Reactor</h4>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2016 - 2016</small></p>
-              </div>
-              <div class="timeline-body">
-                <h3>Software Engineering</h3>
-                <p>Advanced Software Engineering Immersive Program</p>
-                <p>My skills set: Javascript, Ruby, Angular.js, React/Redux, Node, Express.js, MySQL, jQuery, HTML/CSS, Bootstrap, Git, Python, Backbone.js, MongoDB/Mongoose, D3, ES6, Grunt, Heroku, DigitalOcean, webpack.</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-badge warning"><i class="fa fa-hospital-o" aria-hidden="true"></i></div>
-            <div class="timeline-panel timeline-panel-right">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Sunshine Dental Care, Inc</h4>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2011 - 2016</small></p>
-              </div>
-              <div class="timeline-body">
-                <h3>Dental Insurance Coordinator</h3>
-                <p>Acted as a liaison between patients, doctors, and insurance companies to ensure smooth and satisfying experience for all parties, contributing to obtaining a total of 10,000 patients at one clinic location.</p>
-                <p>Promoted to team lead, trained and managed work streams for employees to efficiently hit daily deadlines.</p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="timeline-badge danger"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-            <div class="timeline-panel timeline-panel-left">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Mathedge LLC</h4>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2011 - 2011</small></p>
-              </div>
-              <div class="timeline-body">
-                <h3>Office Manager</h3>
-                <p>Promoted to office manager from an intern, also communicated student progress with parents.</p>
-                <p>While principal was gone, took initiative and taught all math classes as a instructor for three months.</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-badge info"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
-            <div class="timeline-panel timeline-panel-right">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">California State University East Bay</h4>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2006 - 2010</small></p>
-              </div>
-              <div class="timeline-body">
-                <h3>Bachelor of Administration, Accounting and Finance</h3>
-                <p>Full-time student</p>
-              </div>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-
     </div>
-
-    <!-- END EXPERIENCE -->
-
-    <!-- SKILLS -->
-
-    <div id="skills">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-12" id="technical-skill">
-            <h2>Technical Skills</h2>
-            <hr width="30%">
-          </div>
+  </section>
+  <!-- END HEADER -->
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" id="selfie">
+          <img src="img/selfie.png" class="selfie" />
+          <br></br>
         </div>
-
-        <div class="row" id="skill-box">
-          <div class="col-md-4 skill-box-effect">
-            <i class="fa fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
-            <h3>Front-End</h3>
-          </div>
-
-          <div class="col-md-4 skill-box-effect">
-            <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
-            <h3>Back-End</h3>
-          </div>
-
-          <div class="col-md-4 skill-box-effect">
-            <i class="fa fa-check-square-o fa-3x" aria-hidden="true"></i>
-            <h3>Database</h3>
-          </div>
-
+        <div class="col-md-6" id="aboutme">
+          <h2>My Story</h2>
+          <hr align="left" width="50%"></hr>
+          <h3>I am a full stack software engineer with a strong background in JavaScript. My experience includes working with
+            technologies such as Angular, React on the front end, and Node, Express, and MySQL on the back end.</h3>
+          <br>
+          <p class="lead">During spare time, I love traveling and creative cooking! Especially finding ways to mix together otherwise incompatible
+            ingredients to create delicious concoctions, like coca-cola hot wings or garlic smoked eggplant. I like to use
+            my imagination to push the boundaries of what is considered “normal” food.</p>
         </div>
-
-        <div class="row">
-          <div class="col-md-12" id="technical-skill">
-            <button class="btn btn-primary btn-custom" data-toggle="modal" data-target=".bd-example-modal-lg">Click me for detail</button>
-
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-
-                  <div id="bar">
-                    <ul id="skill1">
-                      <li><span class="bar super-strong"></span><h3>Html // Css</h3></li>
-                      <li><span class="bar super-strong"></span><h3>jQuery</h3></li>
-                      <li><span class="bar super-strong"></span><h3>Javascript</h3></li>
-                      <li><span class="bar super-strong"></span><h3>React/Redux</h3></li>
-                      <li><span class="bar super-strong"></span><h3>AngularJS</h3></li>
-                      <li><span class="bar super-strong"></span><h3>Node // Express</h3></li>
-                      <li><span class="bar super-strong"></span><h3>MySQL</h3></li>
-                      <li><span class="bar super-strong"></span><h3>Bootstrap</h3></li>
-                      <li><span class="bar strong"></span><h3>ES6</h3></li>
-                      <li><span class="bar strong"></span><h3>Ruby</h3></li>
-                      <li><span class="bar strong"></span><h3>Git</h3></li>
-                      <li><span class="bar strong"></span><h3>Digital Ocean</h3></li>
-                      <li><span class="bar acceptable"></span><h3>MongoDB // Mongoose</h3></li>
-                      <li><span class="bar acceptable"></span><h3>D3</h3></li>
-                      <li><span class="bar acceptable"></span><h3>Heroku</h3></li>
-                      <li><span class="bar acceptable"></span><h3>Webpack</h3></li>
-                      <li><span class="bar good"></span><h3>Python</h3></li>
-                      <li><span class="bar good"></span><h3>BackboneJS</h3></li>
-                      <li><span class="bar good"></span><h3>Grunt</h3></li>
-                    </ul>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
       </div>
-
     </div>
-
-
-    <!-- END SKILLS -->
-
-    <!-- SHARE -->
-
-    <div id="share">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-12" id="share-info">
-            <h2>Some moments</h2>
-            <hr width="30%">
-          </div>
+  </section>
+  <!-- END ABOUT -->
+  <!-- PROJECTS -->
+  <div id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="projects-list">
+          <h2>Recent projects</h2>
+          <hr width="30%"></hr>
+          <p class="lead"></p>
         </div>
-
-        <div class="row">
-          <div class="col-md-12">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-
-                <div class="item active">
-                  <img src="img/grads.JPG" alt="">
-                  <div class="carousel-caption">
-                    <h3>Graduation</h3>
-                    <p>Selfie while beering at graduation!</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <img src="img/class.jpg" alt="">
-                  <div class="carousel-caption">
-                    <h3>Entire class</h3>
-                    <p>For memory</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <img src="img/whiteboard.JPG" alt="">
-                  <div class="carousel-caption">
-                    <h3>Mock interview</h3>
-                    <p>Be prepared for jobs</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <img src="img/bbq.JPG" alt="">
-                  <div class="carousel-caption">
-                    <h3>BBQ</h3>
-                    <p>BBQ near the pool at friends' place</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card img-responsive">
+            <div class="projects-img">
+              <a href="http://www.soundbear.net/" target="_blank">
+                <img class="card-img-top" src="img/landing1.gif" alt="Card image cap">
+                <div class="img-overlay"></div>
               </a>
             </div>
+            <div class="card-block">
+              <h2 class="card-title">SoundBear</h2>
+              <h4 class="card-text">Voice activated music player</h4>
+              <a href="https://github.com/backbonebear/soundbear" target="_blank" class="btn btn-primary btn-custom">source code</a>
+            </div>
           </div>
         </div>
-
-      </div>
-    </div>
-
-    <!-- END SHARE -->
-
-
-    <!-- CONTACT -->
-    <div id="contact">
-
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-6">
-            <h2 class="descriptions contact-update">Connect Me:</h2>
-            <hr align="left" width="50%"></hr>
-            <h2 class="descriptions contact-update">(408)806-9692 | jeffiefeifei@gmail.com</h2>
+        <div class="col-sm-6">
+          <div class="card img-responsive">
+            <div class="projects-img">
+              <a href="http://107.170.239.150/" target="_blank">
+                <img class="card-img-top" src="img/rumble.png" alt="Card image cap">
+                <div class="img-overlay"></div>
+              </a>
+            </div>
+            <div class="card-block">
+              <h2 class="card-title">Rumble</h2>
+              <h4 class="card-text">Turn based strategy game</h4>
+              <a href="https://github.com/joannexin/rumble" target="_blank" class="btn btn-primary btn-custom">source code</a>
+            </div>
           </div>
-
-          <div class="col-md-6" id="icons">
-            <ul class="list-inline">
-              <li class="list-inline-item bounces"><a href="https://github.com/joannexin" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li class="list-inline-item bounces"><a href="https://www.linkedin.com/in/joanne-xin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li class="list-inline-item bounces"><a href="https://www.facebook.com/jeffie.xin" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item bounces"><a href="https://twitter.com/joannexin1" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item bounces"><a href="mailto:jeffiefeifei@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-            </ul>
+        </div>
+        <div class="col-sm-6">
+          <div class="card img-responsive">
+            <div class="projects-img">
+              <a href="https://fierce-badlands-64131.herokuapp.com/#/" target="_blank">
+                <img class="card-img-top" src="img/bakpak.png" alt="Card image cap">
+                <div class="img-overlay"></div>
+              </a>
+            </div>
+            <div class="card-block">
+              <h2 class="card-title">Bakpak</h2>
+              <h4 class="card-text">Versatile travel, event managing app</h4>
+              <a href="https://github.com/joannexin/BakPak" target="_blank" class="btn btn-primary btn-custom">source code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card img-responsive">
+            <div class="projects-img">
+              <a href="http://138.197.196.135/#/" target="_blank">
+                <img class="card-img-top" src="img/myksr1.png" alt="Card image cap">
+                <div class="img-overlay"></div>
+              </a>
+            </div>
+            <div class="card-block">
+              <h2 class="card-title">Myksr</h2>
+              <h4 class="card-text">Social networking for students</h4>
+              <a href="https://github.com/joannexin/MyKSr" target="_blank" class="btn btn-primary btn-custom">source code</a>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
+  </div>
+  <!-- END PROJECTS -->
+  <!-- EXPERIENCE -->
+  <div id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="experience-timeline">
+          <h2>Experience</h2>
+          <hr width="30%">
+        </div>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel timeline-panel-left">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Hack Reactor</h4>
+              <p>
+                <small class="text-muted">
+                  <i class="glyphicon glyphicon-time"></i> 2016 - 2016</small>
+              </p>
+            </div>
+            <div class="timeline-body">
+              <h3>Software Engineering</h3>
+              <p>Advanced Software Engineering Immersive Program</p>
+              <p>My skills set: Javascript, Ruby, Angular.js, React/Redux, Node, Express.js, MySQL, jQuery, HTML/CSS, Bootstrap,
+                Git, Python, Backbone.js, MongoDB/Mongoose, D3, ES6, Grunt, Heroku, DigitalOcean, webpack.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning">
+            <i class="fa fa-hospital-o" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel timeline-panel-right">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Sunshine Dental Care, Inc</h4>
+              <p>
+                <small class="text-muted">
+                  <i class="glyphicon glyphicon-time"></i> 2011 - 2016</small>
+              </p>
+            </div>
+            <div class="timeline-body">
+              <h3>Dental Insurance Coordinator</h3>
+              <p>Acted as a liaison between patients, doctors, and insurance companies to ensure smooth and satisfying experience
+                for all parties, contributing to obtaining a total of 10,000 patients at one clinic location.</p>
+              <p>Promoted to team lead, trained and managed work streams for employees to efficiently hit daily deadlines.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger">
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel timeline-panel-left">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mathedge LLC</h4>
+              <p>
+                <small class="text-muted">
+                  <i class="glyphicon glyphicon-time"></i> 2011 - 2011</small>
+              </p>
+            </div>
+            <div class="timeline-body">
+              <h3>Office Manager</h3>
+              <p>Promoted to office manager from an intern, also communicated student progress with parents.</p>
+              <p>While principal was gone, took initiative and taught all math classes as a instructor for three months.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel timeline-panel-right">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">California State University East Bay</h4>
+              <p>
+                <small class="text-muted">
+                  <i class="glyphicon glyphicon-time"></i> 2006 - 2010</small>
+              </p>
+            </div>
+            <div class="timeline-body">
+              <h3>Bachelor of Administration, Accounting and Finance</h3>
+              <p>Full-time student</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- END EXPERIENCE -->
+  <!-- SKILLS -->
+  <div id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="technical-skill">
+          <h2>Technical Skills</h2>
+          <hr width="30%">
+        </div>
+      </div>
+      <div class="row" id="skill-box">
+        <div class="col-md-4 skill-box-effect">
+          <i class="fa fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
+          <h3>Front-End</h3>
+        </div>
+        <div class="col-md-4 skill-box-effect">
+          <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+          <h3>Back-End</h3>
+        </div>
+        <div class="col-md-4 skill-box-effect">
+          <i class="fa fa-check-square-o fa-3x" aria-hidden="true"></i>
+          <h3>Database</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12" id="technical-skill">
+          <button class="btn btn-primary btn-custom" data-toggle="modal" data-target=".bd-example-modal-lg">Click me for detail</button>
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div id="bar">
+                  <ul id="skill1">
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>Html // Css</h3>
+                    </li>
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>jQuery</h3>
+                    </li>
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>Javascript</h3>
+                    </li>
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>React/Redux</h3>
+                    </li>
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>AngularJS</h3>
+                    </li>
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>Node // Express</h3>
+                    </li>
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>MySQL</h3>
+                    </li>
+                    <li>
+                      <span class="bar super-strong"></span>
+                      <h3>Bootstrap</h3>
+                    </li>
+                    <li>
+                      <span class="bar strong"></span>
+                      <h3>ES6</h3>
+                    </li>
+                    <li>
+                      <span class="bar strong"></span>
+                      <h3>Ruby</h3>
+                    </li>
+                    <li>
+                      <span class="bar strong"></span>
+                      <h3>Git</h3>
+                    </li>
+                    <li>
+                      <span class="bar strong"></span>
+                      <h3>Digital Ocean</h3>
+                    </li>
+                    <li>
+                      <span class="bar acceptable"></span>
+                      <h3>MongoDB // Mongoose</h3>
+                    </li>
+                    <li>
+                      <span class="bar acceptable"></span>
+                      <h3>D3</h3>
+                    </li>
+                    <li>
+                      <span class="bar acceptable"></span>
+                      <h3>Heroku</h3>
+                    </li>
+                    <li>
+                      <span class="bar acceptable"></span>
+                      <h3>Webpack</h3>
+                    </li>
+                    <li>
+                      <span class="bar good"></span>
+                      <h3>Python</h3>
+                    </li>
+                    <li>
+                      <span class="bar good"></span>
+                      <h3>BackboneJS</h3>
+                    </li>
+                    <li>
+                      <span class="bar good"></span>
+                      <h3>Grunt</h3>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END SKILLS -->
+  <!-- SHARE -->
+  <div id="share">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="share-info">
+          <h2>Some moments</h2>
+          <hr width="30%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/grads.JPG" alt="">
+                <div class="carousel-caption">
+                  <h3>Graduation</h3>
+                  <p>Selfie while beering at graduation!</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/class.jpg" alt="">
+                <div class="carousel-caption">
+                  <h3>Entire class</h3>
+                  <p>For memory</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/whiteboard.JPG" alt="">
+                <div class="carousel-caption">
+                  <h3>Mock interview</h3>
+                  <p>Be prepared for jobs</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/bbq.JPG" alt="">
+                <div class="carousel-caption">
+                  <h3>BBQ</h3>
+                  <p>BBQ near the pool at friends' place</p>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END SHARE -->
+  <!-- CONTACT -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="descriptions contact-update">Connect Me:</h2>
+          <hr align="left" width="50%"></hr>
+          <h2 class="descriptions contact-update">(408)806-9692 | jeffiefeifei@gmail.com</h2>
+        </div>
+        <div class="col-md-6" id="icons">
+          <ul class="list-inline">
+            <li class="list-inline-item bounces">
+              <a href="https://github.com/joannexin" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+            <li class="list-inline-item bounces">
+              <a href="https://www.linkedin.com/in/joanne-xin" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item bounces">
+              <a href="https://www.facebook.com/jeffie.xin" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item bounces">
+              <a href="https://twitter.com/joannexin1" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item bounces">
+              <a href="mailto:jeffiefeifei@gmail.com" target="_blank">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END CONTACT -->
+</body>
 
-    <!-- END CONTACT -->
-
-  </body>
 </html>
