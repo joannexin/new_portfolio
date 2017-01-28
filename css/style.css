@@ -66,6 +66,10 @@ video {
   transition: 1s opacity;
 }
 
+.video-container {
+  overflow: hidden;
+}
+
 #discription {
   position: absolute;
   text-align: center;
@@ -400,6 +404,7 @@ video {
 }
 
 .bar {
+  left: 0px;
 	height:18px;
 	margin:1px 2px;
 	position:absolute;
