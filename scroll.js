@@ -46,15 +46,35 @@ $(window).scroll(function() {
 	});
 });
 
-$('#animatedElement').click(function() {
-	$(this).addClass("slideUp");
-});
+
+// $('#animatedElement').click(function() {
+// 	$(this).addClass("slideUp");
+// });
 
 
 $(document).ready(function(){
-	$('.skillbar').each(function(){
-		$(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
+  $(".fa-chevron-down").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+
+
+  $(".nav-link").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
 });

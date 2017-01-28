@@ -537,9 +537,8 @@ video {
 
 .descriptions {
   font-weight: 300;
-  font-size: 24px;
   color: white;
-  text-shadow:  0 0 1px #1D2024, 0 0 2px #2C284A,  0 0 3px #2C284A, 0 0 5px #2C284A, 0 0 3px #2C284A, 0 0 8px #2C284A, 0 0 10px #2C284A, 0 0 15px #2C284A;
+  text-shadow:  0 0 1px #1D2024, 0 0 2px #00CED1,  0 0 3px #00CED1, 0 0 5px #00CED1, 0 0 3px #00CED1, 0 0 8px #00CED1, 0 0 10px #00CED1, 0 0 15px #00CED1;
 }
 
 
