@@ -24,9 +24,6 @@ html, body {
   video {
     transform: translateX(-85%) translateY(-50%);
   }
-  .navbar {
-    padding-right: 0px;
-  }
 }
 
 .navbar {
@@ -34,6 +31,12 @@ html, body {
   border-bottom: 1px solid #dedede;
   padding-right: 50px;
   font-family: 'Alegreya Sans', sans-serif;
+}
+
+@media(max-width:768px) {
+  .navbar {
+    padding-right: 0px;
+  }
 }
 
 .navbar .nav .nav-item .nav-link {
@@ -151,8 +154,8 @@ video {
 }
 
 .card-img-top {
-  height: 285px;
   width: 100%;
+  height: 285px;
 }
 
 .card-block {
@@ -190,7 +193,7 @@ video {
   font-size: 18px;
   border-color: #00CED1;
   background-color: #00CED1;
-  width: 318px;
+  width: 80%;
 }
 
 .btn-custom:hover {
