@@ -81,6 +81,12 @@ $(document).ready(function(){
 
 // navbar shows after reach about section
 $(document).ready(function(){
+  
+  $(window).on('load', function(){
+    $('div.cover-spinner').fadeOut();
+
+  });
+
   $(".navbar").hide();
   $(function () {
     $(window).scroll(function () {

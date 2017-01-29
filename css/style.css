@@ -646,3 +646,17 @@ video {
 #selfie, #icons, #technical-skill, #projects-list, #experience-timeline, #share-info, #contact-info {
   text-align: center;
 }
+
+.cover-spinner {
+  height: 100%;
+  width: 100%;
+  z-index: 2000;
+  position: fixed;
+}
+
+.cover-spinner img {
+  display: block;
+  margin-top: 20%;
+  margin-right: auto;
+  margin-left: auto;
+}
