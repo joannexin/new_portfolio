@@ -73,6 +73,26 @@ video {
   overflow: hidden;
 }
 
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.parallax.x1 {
+  background-image: url("../img/coder.png");
+}
+
+.parallax.x2 {
+  background-image: url("../img/getjob.png");
+}
+
+.parallax.x3 {
+  background-image: url("../img/whynot.png");
+}
+
 #discription {
   position: absolute;
   text-align: center;

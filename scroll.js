@@ -9,30 +9,12 @@ $(window).scroll(function() {
     }
   });
 
-  $('#aboutme').each(function(){
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow+400) {
-      $(this).addClass("stretchLeft");
-    }
-  });
-
-  $('.btn-custom').each(function(){
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow+650) {
-      $(this).addClass("tossing");
-    }
-  });
-
   $('.timeline-panel-left').each(function(){
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
     if (imagePos < topOfWindow+500) {
-      $(this).addClass("slideLeft");
+      $(this).addClass("slideRight");
     }
   });
 
@@ -41,7 +23,7 @@ $(window).scroll(function() {
 
     var topOfWindow = $(window).scrollTop();
     if (imagePos < topOfWindow+500) {
-      $(this).addClass("slideRight");
+      $(this).addClass("slideLeft");
     }
   });
 });
@@ -81,7 +63,7 @@ $(document).ready(function(){
 
 // navbar shows after reach about section
 $(document).ready(function(){
-  
+
   $(window).on('load', function(){
     $('div.cover-spinner').fadeOut();
 
